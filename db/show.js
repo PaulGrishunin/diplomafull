@@ -1,7 +1,7 @@
 const mongodb = require('mongodb');
 
 const MongoClient = mongodb.MongoClient;
-const url = 'mongodb://localhost:27017';
+const url = 'mongodb://PaulGrishunin:Nissan7332@ds135534.mlab.com:35534/heroku_r8z2mgc1' ;
 
 const show = () =>
     new Promise((resolve, reject) => {
