@@ -1,0 +1,49 @@
+@keyframes start {
+    0% {
+        bottom: -100%;
+        }
+    100% {
+        bottom: 100%;
+        }
+    }
+
+.main {
+    overflow: hidden;
+    min-height: 100vh;
+    box-sizing: border-box;
+    padding: 13% 0 0;
+    position: relative;
+    }
+
+    .title {
+        margin: 0 auto 40px;
+        max-width: 840px;
+        color: #fff;
+        text-align: center;
+        text-transform: uppercase;
+        font: bold 55px ProximaNovaBold, Arial, sans-serif;
+        }
+
+    .subTitle {
+        margin: 0 auto 65px;
+        max-width: 400px;
+        color: #fff;
+        text-align: center;
+        font: 30px ProximaNovaLight, Arial, sans-serif;
+        }
+
+    .rocket {
+        position: absolute * * -100% 50%;
+        display: none;
+        background: url(./assets/rocket.png) center/contain no-repeat;
+        transform: translateX(-50%);
+        size: 155px 406px;
+        }
+
+    .started {
+        z-index: 3;
+        display: inline-block;
+        animation: start ease-in-out 2s forwards;
+        composes: rocket;
+        }
+
