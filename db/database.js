@@ -1,7 +1,7 @@
 const mongodb = require('mongodb');
 
 const MongoClient = mongodb.MongoClient;
-const url = process.env.MONGODB_URI || 'mongodb://6thsence:pushgroupnsk17@ds025263.mlab.com:25263/heroku_sr0fbvrw';
+const url = process.env.MONGODB_URI || 'mongodb://paul_gri:qwerty12345@ds135534.mlab.com:35534/heroku_r8z2mgc1';
 
 module.exports.connect = () =>
     new Promise((resolve, reject) => {
