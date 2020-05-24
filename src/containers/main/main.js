@@ -21,7 +21,7 @@ const Main = React.createClass ({
     render() {
         return (
             <div className={styles.main}>
-                <h1 className={styles.title}>Тест по frontend разработке</h1>
+                <h1 className={styles.title}>Тест</h1>
                 <h2 className={styles.subTitle}>Ответь на 5 вопросов и узнай свой уровень</h2>
                 <BlueButton onClick={this.start} text="Поехали!"/>
                 <div className={this.state.start ? styles.started : styles.rocket}></div>

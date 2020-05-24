@@ -2,7 +2,7 @@
 	{
 		"idQuestion": 1,
 		"type": "HTML",
-		"question": "Какая ошибка содержится в следующей строке?\n<span class='tag'>&lt;<span>p</span>&gt;</span><span class='tag'>&lt;<span>b</span>&gt;</span>lorem ipsum dolor sit <span class='tag'>&lt;/<span>b</span>&gt;</span><span class='tag'>&lt;<span>span</span>&gt;</span>amet<span class='tag'>&lt;<span>blockquote</span>&gt;</span>consectetuer<span class='tag'>&lt;/<span>blockquote</span>&gt;</span><span class='tag'>&lt;<span>span</span>&gt;</span>adipicim<span class='tag'>&lt;/<span>span</span>&gt;</span> elit<span class='tag'>&lt;/<span>span</span>&gt;</span><span class='tag'>&lt;/<span>p</span>&gt;</span></code>",
+		"question": "/-------",
 		"answers": {
 			"1": "Тег <span> задан без атрибутов.",
 			"2": "Блочный элемент размещается внутри строчного.",
@@ -14,7 +14,7 @@
 	},
 	{
 		"idQuestion": 2,
-		"question": "Какая ошибка содержится в следующем стиле?\nimg { float: left; border-width: 3; display: block }",
+		"question": "okokkkokokokokokko",
 		"type": "CSS",
 		"answers": {
 			"1": "Не указаны единицы измерения свойства border-width.",
