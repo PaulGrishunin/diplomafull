@@ -21,8 +21,8 @@ const Main = React.createClass ({
     render() {
         return (
             <div className={styles.main}>
-                <h1 className={styles.title}>Тест</h1>
-                <h2 className={styles.subTitle}>Ответь на 5 вопросов и узнай свой уровень</h2>
+                <h1 className={styles.title}>Комплексная многофазная система тестирования и проверки знаний научных сотрудников по неясным вопросам. </h1>
+                <h2 className={styles.subTitle}>Ответь на 3 простых вопроса и возьми с полки пирожок. Здесь можно менять заголовок</h2>
                 <BlueButton onClick={this.start} text="Поехали!"/>
                 <div className={this.state.start ? styles.started : styles.rocket}></div>
             </div>

@@ -1,8 +1,8 @@
 [
 	{
 		"id": 1,
-		"name": "Пушкарская Дарья",
-		"email": "d.pushkarskaya.pr@gmail.com",
+		"name": "paul_gri",
+		"email": "paul_gri@mail.ru",
 		"password": "qwerty12345",
 		"points": 0
 	},
@@ -11,13 +11,6 @@
 		"name": "admin",
 		"email": "admin@gmail.com",
 		"password": "admin",
-		"points": 0
-	},
-	{
-		"id": 3,
-		"name": "paul_gri",
-		"email": "paul_gri@mail.ru",
-		"password": "qwerty12345",
 		"points": 0
 	}
 ]
