@@ -4,7 +4,7 @@ const questionsJson = require('./questions');
 const usersJson = require('./users');
 
 const MongoClient = mongodb.MongoClient;
-const url = 'mongodb://PaulGrishunin:Nissan7332@ds135534.mlab.com:35534/heroku_r8z2mgc1' ;
+const url = 'mongodb://paul_gri:qwerty12345@ds135534.mlab.com:35534/heroku_r8z2mgc1';
 
 //module.exports.insert = () =>
 const insert = () =>
